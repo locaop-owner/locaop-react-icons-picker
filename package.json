@@ -1,18 +1,21 @@
 {
   "name": "@locaop/icon-picker",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "types": "dist/types/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "rollup -c",
     "watch": "rollup -c --watch",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
     "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,json,css,scss,md}'"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["react", "icon", "picker", "icon-picker", "icon-picker-react", "icon-picker-react-component"],
+  "author": "locaop",
   "license": "ISC",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.7",
