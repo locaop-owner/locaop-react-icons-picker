@@ -1,7 +1,8 @@
-dist
-.babelrc
-.storybook
-.gitignore
-.prettierrc
+example/
+src/
+node_modules/
 rollup.config.js
+.prettierrc
 tsconfig.json
+*.log
+*.tmp
