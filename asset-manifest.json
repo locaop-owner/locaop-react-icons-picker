@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/locaop-react-icons-picker/static/js/main.f3116683.chunk.js",
-    "main.js.map": "/locaop-react-icons-picker/static/js/main.f3116683.chunk.js.map",
+    "main.js": "/locaop-react-icons-picker/static/js/main.126c5434.chunk.js",
+    "main.js.map": "/locaop-react-icons-picker/static/js/main.126c5434.chunk.js.map",
     "runtime-main.js": "/locaop-react-icons-picker/static/js/runtime-main.cbbbc4ae.js",
     "runtime-main.js.map": "/locaop-react-icons-picker/static/js/runtime-main.cbbbc4ae.js.map",
     "static/js/2.42930592.chunk.js": "/locaop-react-icons-picker/static/js/2.42930592.chunk.js",
@@ -12,6 +12,6 @@
   "entrypoints": [
     "static/js/runtime-main.cbbbc4ae.js",
     "static/js/2.42930592.chunk.js",
-    "static/js/main.f3116683.chunk.js"
+    "static/js/main.126c5434.chunk.js"
   ]
 }
