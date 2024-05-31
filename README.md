@@ -1,4 +1,4 @@
-# Locaop React Icons Picker
+# @locaop/icon-picker
 
 ## Overview
 
