@@ -1,6 +1,6 @@
 {
   "name": "@locaop/icon-picker",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "react-iconsのアイコンピッカーです",
   "main": "dist/index.js",
   "module": "dist/index.es.js",

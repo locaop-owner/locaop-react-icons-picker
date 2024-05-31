@@ -30,7 +30,7 @@ The IconPicker component is just like any other picker component. The value prop
 
 ```react
 import * as React from 'react'
-import { IconPicker } from 'react-fa-icon-picker'
+import { IconPicker } from '@locaop/icon-picker'
 
 export default () => {
   const [value, setValue] = useState("")
@@ -44,7 +44,7 @@ You can also use the IconPickerItem component to render the icon. This uses reac
 
 ```react
 import * as React from 'react'
-import { IconPickerItem } from 'react-fa-icon-picker'
+import { IconPickerItem } from '@locaop/icon-picker'
 
 export default () => (
   <IconPickerItem icon="FaAdobe" size={24} color="#000" />
@@ -60,7 +60,7 @@ If you are interested in contributing, please submit a PR.
 
 The icons are also strongly typed.
 
-![Strongly typed icons](https://firebasestorage.googleapis.com/v0/b/rapptr-internal.appspot.com/o/react-fa-icon-picker%2FIconPickerImage.png?alt=media&token=5e3a64cc-cd74-4d01-892e-8956aff35f1b)
+![Strongly typed icons](https://firebasestorage.googleapis.com/v0/b/rapptr-internal.appspot.com/o/@locaop/icon-picker%2FIconPickerImage.png?alt=media&token=5e3a64cc-cd74-4d01-892e-8956aff35f1b)
 
 ## Motivation
 
@@ -71,13 +71,13 @@ I feel like an icon picker is a pretty common requirement so I was surprised to 
 Install via npm
 
 ```cli
-npm install react-fa-icon-picker
+npm install @locaop/icon-picker
 ```
 
 or yarn
 
 ```cli
-yarn add react-fa-icon-picker
+yarn add @locaop/icon-picker
 ```
 
 ## Usage
@@ -86,7 +86,7 @@ The IconPicker component is just like any other picker component. The value prop
 
 ```react
 import * as React from 'react'
-import { IconPicker } from 'react-fa-icon-picker'
+import { IconPicker } from '@locaop/icon-picker'
 
 export default () => {
   const [value, setValue] = useState("")
@@ -100,7 +100,7 @@ You can also use the IconPickerItem component to render the icon. This uses reac
 
 ```react
 import * as React from 'react'
-import { IconPickerItem } from 'react-fa-icon-picker'
+import { IconPickerItem } from '@locaop/icon-picker'
 
 export default () => (
   <IconPickerItem icon="FaAdobe" size={24} color="#000" onClick={onClick} />
