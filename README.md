@@ -2,7 +2,7 @@
 
 ## Overview
 
-![Icon Picker Demo](https://locaop-owner.github.io/locaop-react-icons-picker/)
+[Icon Picker Demo](https://locaop-owner.github.io/locaop-react-icons-picker/)
 
 <!-- react-fa-icon-picker is a strongly typed React icon picker for font-awesome icons. It contains both a picker component and an icon renderer.
 
