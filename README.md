@@ -2,9 +2,60 @@
 
 ## Overview
 
+![DEMO IMG](http://locaop.jp/cms/wp-content/uploads/2024/05/Component-Library-Development.gif)
+
 [Icon Picker Demo](https://locaop-owner.github.io/locaop-react-icons-picker/)
 
-<!-- react-fa-icon-picker is a strongly typed React icon picker for font-awesome icons. It contains both a picker component and an icon renderer.
+@locaop/icon-picker is a strongly typed React Icons picker for font-awesome icons. It contains both a picker component and an icon renderer.
+
+Includes all icons:
+[Font Awesome 5](https://react-icons.github.io/react-icons/icons/fa/)
+
+Mainly includes social icons:
+[Phosphor Icons](https://react-icons.github.io/react-icons/icons/pi/)
+
+I feel like an icon picker is a pretty common requirement so I was surprised to find a lack of sufficient icon pickers in the React Ecosystem. The existing ones I found were not that great. As a result, I decided to roll my own.
+
+## Installation
+
+Install via npm
+
+```cli
+npm i @locaop/icon-picker
+```
+
+## Usage
+
+The IconPicker component is just like any other picker component. The value prop is the icon that is displayed on the picker. When a new icon is selected, the onChange handler is fired.
+
+```react
+import * as React from 'react'
+import { IconPicker } from 'react-fa-icon-picker'
+
+export default () => {
+  const [value, setValue] = useState("")
+  return (
+    <IconPicker value={value} onChange={(v) => setValue(v)} />
+  )
+}
+```
+
+You can also use the IconPickerItem component to render the icon. This uses react-icons under the hood.
+
+```react
+import * as React from 'react'
+import { IconPickerItem } from 'react-fa-icon-picker'
+
+export default () => (
+  <IconPickerItem icon="FaAdobe" size={24} color="#000" />
+  )
+```
+
+## Contribution Guide
+
+If you are interested in contributing, please submit a PR.
+
+<!-- @locaop/icon-picker is a strongly typed React icon picker for font-awesome icons. It contains both a picker component and an icon renderer.
 
 
 The icons are also strongly typed.
