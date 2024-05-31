@@ -43,7 +43,6 @@ import {
 } from 'react-icons/pi';
 
 export const FontIcon = {
-  ...FontAwesome5Icons,
   PiCalendarCheck,
   PiPhone,
   PiPhoneCall,
@@ -84,6 +83,7 @@ export const FontIcon = {
   PiXLogoBold,
   PiTiktokLogoBold,
   PiInstagramLogoBold,
+  ...FontAwesome5Icons,
 };
 
 export const iconList = Object.values(FontIcon).map((icon) => icon.name);
