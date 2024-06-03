@@ -24,56 +24,6 @@ Install via npm
 npm i @locaop/icon-picker
 ```
 
-## Usage
-
-The IconPicker component is just like any other picker component. The value prop is the icon that is displayed on the picker. When a new icon is selected, the onChange handler is fired.
-
-```react
-import * as React from 'react'
-import { IconPicker } from '@locaop/icon-picker'
-
-export default () => {
-  const [value, setValue] = useState("")
-  return (
-    <IconPicker value={value} onChange={(v) => setValue(v)} />
-  )
-}
-```
-
-You can also use the IconPickerItem component to render the icon. This uses react-icons under the hood.
-
-```react
-import * as React from 'react'
-import { IconPickerItem } from '@locaop/icon-picker'
-
-export default () => (
-  <IconPickerItem icon="FaAdobe" size={24} color="#000" />
-  )
-```
-
-## Contribution Guide
-
-If you are interested in contributing, please submit a PR.
-
-<!-- @locaop/icon-picker is a strongly typed React icon picker for font-awesome icons. It contains both a picker component and an icon renderer.
-
-
-The icons are also strongly typed.
-
-![Strongly typed icons](https://firebasestorage.googleapis.com/v0/b/rapptr-internal.appspot.com/o/@locaop/icon-picker%2FIconPickerImage.png?alt=media&token=5e3a64cc-cd74-4d01-892e-8956aff35f1b)
-
-## Motivation
-
-I feel like an icon picker is a pretty common requirement so I was surprised to find a lack of sufficient icon pickers in the React Ecosystem. The existing ones I found were not that great. As a result, I decided to roll my own.
-
-## Installation
-
-Install via npm
-
-```cli
-npm install @locaop/icon-picker
-```
-
 or yarn
 
 ```cli
@@ -103,39 +53,37 @@ import * as React from 'react'
 import { IconPickerItem } from '@locaop/icon-picker'
 
 export default () => (
-  <IconPickerItem icon="FaAdobe" size={24} color="#000" onClick={onClick} />
+  <IconPickerItem icon="FaAdobe" size={24} color="#000" />
   )
 ```
 
 ## All valid configurations/props of the package
 
-PickerList
+IconPicker
 
 | Prop              | Type                | Required | Description                                                    |
 | ----------------- | ------------------- | -------- | -------------------------------------------------------------- |
 | value             | string              | true     | The current font awesome icon displayed on the picker.         |
 | onChange          | (v: string) => void | true     | A change handler that is executed when a new icon is selected. |
 | hideSearch        | boolean             | false    | If true, the search input is not displayed. Default is false.  |
-| containerStyles   | CSSProperties       | false    | Styles for the picker container                                |
-| buttonStyles      | CSSProperties       | false    | Styles for the picker button                                   |
-| buttonIconStyles  | CSSProperties       | false    | Styles for the picker button icon                              |
-| pickerIconStyles  | CSSProperties       | false    | Styles for the icons inside of the picker                      |
-| searchInputStyles | CSSProperties       | false    | Styles for the search input inside of the picker               |
+| containerStyles   | StyleType       | false    | Styles for the picker container                                |
+| pickerContainerStyles      | StyleType       | false    | Styles for the picker button                                   |               |
 
-PickerListItem
+IconPickerItem
 | Prop | Type | Required | Description |
 | ---- | --- | --- | ---
 | icon | string | true | The name of the icon to render. Example: "FaAdobe" |
 | size | number | false |The size of the icon. Default: 24 |
-| color | string | false | The color of the icon. Default: "#000" |
+| color | string | false | The color of the icon. Default: "#3a3a3a" |
 | onClick | (v: string) => void | false | An onClick handler for the icon. |
-| containerStyles | CSSProperties | false | An onClick handler for the icon. |
 
 ## Contribution Guide
 
 If you are interested in contributing, please submit a PR.
 
-### Contributors
+## License
 
-- [Cory McAboy](https://github.com/cmcaboy)
-- [Joseph Hu](https://github.com/zhhjoseph) -->
+This project is licensed under the ISC License. See the [LICENSE](LICENSE) file for details.
+
+
+This library is a fork of [DATechnologies/react-fa-icon-picker](https://github.com/DATechnologies/react-fa-icon-picker).
