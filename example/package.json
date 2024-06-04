@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@emotion/react": "file:../node_modules/@emotion/react",
+    "@emotion/react": "^11.4.0",
     "@locaop/icon-picker": "file:../",
     "react": "file:../node_modules/react",
     "react-dom": "file:../node_modules/react-dom",

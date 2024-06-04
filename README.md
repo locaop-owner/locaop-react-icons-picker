@@ -18,15 +18,26 @@ I feel like an icon picker is a pretty common requirement so I was surprised to 
 
 ## Installation
 
+To use this library, you need to have `react`, `react-dom`, and `@emotion/react` installed in your project.
+
+```sh
+npm install react react-dom @emotion/react @locaop/icon-picker
+```
+or yarn
+
+```sh
+npm install react react-dom @emotion/react @locaop/icon-picker
+```
+
 Install via npm
 
-```cli
+```sh
 npm i @locaop/icon-picker
 ```
 
 or yarn
 
-```cli
+```sh
 yarn add @locaop/icon-picker
 ```
 

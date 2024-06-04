@@ -26,5 +26,5 @@ export default {
     typescript({ tsconfig: "./tsconfig.json" }),
     terser(),
   ],
-  external: ["react", "react-dom"], // ReactとReactDOMを外部依存として指定
+  external: ["react", "react-dom", "@emotion/react"], // ReactとReactDOM、Emotionを外部依存として指定
 };

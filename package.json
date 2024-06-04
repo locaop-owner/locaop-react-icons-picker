@@ -1,6 +1,6 @@
 {
   "name": "@locaop/icon-picker",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "description": "This is an icon picker for react-icons.",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -35,8 +35,7 @@
   },
   "dependencies": {
     "react-icons": "^5.2.1",
-    "tslib": "^2.6.2",
-    "@emotion/react": "^11.4.0"
+    "tslib": "^2.6.2"
   },
   "peerDependencies": {
     "@emotion/react": "^11.4.0",
