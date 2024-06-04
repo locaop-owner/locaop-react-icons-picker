@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "importHelpers": true,
+    "noEmitHelpers": true,
     "target": "ES5",
     "module": "ESNext",
     "declaration": true,

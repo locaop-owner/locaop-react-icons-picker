@@ -11,12 +11,12 @@ export default {
     {
       file: pkg.main,
       format: "cjs",
-      sourcemap: true,
+      sourcemap: false, // ソースマップを無効にする
     },
     {
       file: pkg.module,
       format: "es",
-      sourcemap: true,
+      sourcemap: false, // ソースマップを無効にする
     },
   ],
   plugins: [
