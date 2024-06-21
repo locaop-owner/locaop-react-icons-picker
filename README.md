@@ -30,17 +30,6 @@ or yarn
 yarn add @locaop/icon-picker
 ```
 
-To use this library, you need to have `react`, `react-dom`, and `@emotion/react` installed in your project.
-
-```cli
-npm install react react-dom @emotion/react
-```
-or yarn
-
-```cli
-npm install react react-dom @emotion/react
-```
-
 ## Usage
 
 The IconPicker component is just like any other picker component. The value prop is the icon that is displayed on the picker. When a new icon is selected, the onChange handler is fired.
