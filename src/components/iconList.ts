@@ -1,4 +1,4 @@
-import * as FontAwesome5Icons from 'react-icons/fa';
+import * as FontAwesome5Icons from 'old-react-icons/fa';
 import {
   PiCalendarCheck,
   PiPhone,
